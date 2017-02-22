@@ -1,0 +1,488 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title></title>
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Franklin Gothic Heavy";
+	panose-1:2 11 9 3 2 1 2 2 2 4;}
+@font-face
+	{font-family:"Arial Black";
+	panose-1:2 11 10 4 2 1 2 2 2 4;}
+@font-face
+	{font-family:"Arial Bold";
+	panose-1:2 11 7 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Arial Italic";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Franklin Gothic Book";
+	panose-1:2 11 5 3 2 1 2 2 2 4;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"\@Batang";
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+ /* Style Definitions */
+
+ p, div, p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+h1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial Bold","serif";
+	layout-grid-mode:line;
+	font-weight:bold;}
+h2
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial Italic","sans-serif";
+	font-weight:normal;
+	font-style:italic;}
+h3
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial Bold","serif";
+	font-weight:bold;}
+h4
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	layout-grid-mode:line;
+	font-weight:bold;}
+h5
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+h6
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-36.0pt;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	background:navy;
+	font-size:10.0pt;
+	font-family:"Tahoma","sans-serif";}
+p
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	line-height:18.0pt;
+	font-size:11.0pt;
+	font-family:"Arial Unicode MS","sans-serif";}
+pre
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.content1
+	{mso-style-name:content1;
+	font-family:"Arial","sans-serif";
+	color:#333333;}
+p.Default, li.Default, div.Default
+	{mso-style-name:Default;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+span.ecxa1
+	{mso-style-name:ecxa1;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.featuretext
+	{mso-style-name:featuretext;}
+p.releasedate, li.releasedate, div.releasedate
+	{mso-style-name:releasedate;
+	margin-right:0cm;
+	margin-left:0cm;
+	line-height:normal;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:36.0pt 72.0pt 45.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-CA link=blue vlink=purple>
+
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.94%;border-collapse:collapse'>
+ <tr style='height:4.05pt'>
+  <td width="40%" valign=top style='width:40.0%;padding:0cm 5.4pt 0cm 5.4pt;
+  height:4.05pt'>
+  <p class=MsoNormal><img width=175 height=58
+  src="http://media.ontarionewsroom.com/logos/ontario_logo.png" align=left hspace=12></p>
+  </td>
+  <td width="60%" valign=bottom style='width:60.0%;padding:0cm 5.4pt 0cm 5.4pt;
+  height:4.05pt'>
+  <p class=MsoHeader align=right style='text-align:right'><b><i><span
+  lang=en style='font-size:30.0pt;font-family:"Arial Black","sans-serif";
+  color:gray'>NEWS</span></i></b></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:20.25pt'>
+  <td width="100%" colspan=2 valign=top style='width:100.0%;border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:20.25pt'>
+  <p class=MsoFooter align=right style='text-align:right'><b><span lang=en
+  style='font-size:10.0pt'>Ministry of Health and Long-Term Care</span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=en>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=en>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=en
+style='font-size:14.0pt'>Ontario Passes Legislation that Delivers Better Health Care for Families</span></b></p>
+
+<h2><span lang=en>Patients First Act Creates More Integrated Health Care System Across the Province</span></h2>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=en>December  7, 2016 12:00 P.M.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+<p>Today, Ontario passed legislation that will help patients
+and their families obtain better access to a more local and integrated health
+care system, improving the patient experience and delivering higher-quality
+care.</p>
+ 
+
+<p>The&nbsp;<em>Patients First Act&nbsp;</em>will help ensure patients are at the centre of the health care system. Once fully implemented, changes supported by the new legislation will:</p>
+<ul><li>Improve access to primary care for people in Ontario, including a single number to call when they need health information or advice on where to find a new family doctor or nurse practitioner.</li><li>Improve local connections between primary care providers, inter-professional health care teams, hospitals, public health and home and community care to ensure a smoother patient experience and transitions.</li><li>Streamline and reduce administration of the health care system and direct savings into patient care.</li><li>Enhance accountability to better ensure people in Ontario have access to care when they need it.</li><li>Formally connect Local Health Integration Networks (LHINs) and local boards of health to leverage their community expertise and ensure local public health units are involved in community health planning.</li><li>Strengthen the voices of patients and families in their own health care planning.</li><li>Increase the focus on cultural sensitivity and the delivery of health care services to Indigenous peoples and French speaking people in Ontario.</li></ul><p>Ontario will continue working with French language health leaders, First Nations, Métis, Inuit and urban Indigenous partners and health providers to ensure their voices are heard, in particular with respect to equitable access to services that meet their unique needs. The province will also continue to work with health care partners across the system, as well as patients, families and caregivers to ensure that patients have reliable, efficient access to the health care services they depend on every day.</p>
+<p>The&nbsp;<em>Patients First Act</em>&nbsp;is an important step forward in the government's plan to build a better Ontario through its&nbsp;<a href="http://www.ontario.ca/patientsfirst" data-mce-href="http://www.ontario.ca/patientsfirst">Patients First: Action Plan for Health Care</a>, which provides patients with faster access to the right care; better home and community care; the information they need to live healthy; and a health care system that is sustainable for generations to come.</p>
+
+
+<p class=MsoNormal>&nbsp;</p>
+<h3><span lang=en style='font-family:"Arial","sans-serif"'>QUOTES</span></h3>
+<p>"
+Today marks an important milestone for a health care system in Ontario that is truly committed to putting patients first. The passage of this legislation means that patients will have health care that is easier to navigate, better co-ordinated, more open and accountable. Patients and their families will also have a stronger voice and role in health care planning and ‎services."
+<br /> - Dr. Eric Hoskins<br />Minister of Health and Long-Term Care</p>
+<p>"
+The structure of Ontario’s health care system is changing and evolving and Ontario hospitals are ready and willing to work even more closely with the home and community, primary care, and public health sectors to ensure that this important effort achieves its full promise of improving patient care. The ongoing collaboration of all health system partners will help ensure a successful transition and hospitals are committed to sharing their expertise, resources and capacity in contributing to this transformation."
+<br /> - Anthony Dale<br />President and Chief Executive Officer, Ontario Hospital Association</p>
+<p>"
+Home Care Ontario commends the government on the passage of Bill 41, The Patients First Act, 2016 which has the overarching goal of creating a further improved and integrated provincial home care system.  Frontline Home Care Providers welcome the opportunity to work directly with the Local Health Integration Networks to streamline service delivery and increase access to home care by Ontarians."
+<br /> - Sue VanderBent<br />Chief Executive Officer, Home Care Ontario</p>
+<p>"
+The legislation marks a major milestone. It directs the LHINs to reduce and eliminate health disparities and inequities.  It also commits them to address the many determinants of health and partner with primary health care to deliver health promotion services and programs that promote health and wellbeing for everyone in Ontario."
+<br /> - Adrianna Tetley<br />Chief Executive Officer, Association of Ontario Health Centres</p>
+<p>"
+Ontario’s not-for-profit home and community care providers work tirelessly to help seniors and people with disabilities live independently in their own homes for as long as possible. The Patients First Act will help us achieve this important goal by creating a more equitable and better-coordinated health care system. We are pleased that the needs of these providers and their clients are being heard, and look forward to partnering with the province as we work towards our mutual goal of a health system that provides high-quality, personalized care to all Ontarians."
+<br /> - Deborah Simon<br />Chief Executive Officer, Ontario Community Support Association</p>
+<p>"
+CMHA Ontario is supportive of all efforts that help those suffering from mental health or addictions issues efficiently access the services they need for recovery. The sub LHIN structure will enable better coordination between primary care services and those that need them to manage their overall health. This is a particularly important link for those struggling with their mental health. CMHA Ontario will work to ensure a successful transition as a result of Bill 41."
+<br /> - Camille Quenneville<br />CEO at Canadian Mental Health Association Ontario Division</p>
+<p>"
+Our members see firsthand the challenges people in Ontario face accessing the right care at the right time and place for their addiction and mental health challenges. The Patients First Act sets in place the legislative framework to create a more connected, coordinated healthcare system that is built around the needs of Ontarians. We look forward to working with the government on implementation of the bill, including clear policy guidelines around the new LHIN responsibilities. This is an important opportunity to build a better system, one that provides every Ontarian with timely access to core mental health and addiction services."
+<br /> - Gail Czukar<br />Chief Executive Officer, Addictions and Mental Health Ontario</p>
+<p>"
+By mandating a relationship between Local Public Health and LHINs, the Patients First Act creates an important avenue for incorporating population health and health equity principles into health system planning.  As public health professionals, we applaud the measures proposed in the Patients First Act that aim to bring disease-prevention and health promotion principles to local health system planning in Ontario.  We strongly believe that the best way to guarantee improvements in the quality of patient-centred care and truly put patients first is to prevent Ontarians from becoming patients for as long as possible."
+<br /> - Dr. Valerie Jaeger<br />President, Association of Local Public Health Agencies</p>
+<p class=MsoNormal>&nbsp;</p>
+
+<h3><span lang=en style='font-family:"Arial","sans-serif"'>QUICK FACTS</span></h3>
+<ul>
+<li>Ontario will continue to engage Indigenous partners through a parallel process that will collaboratively identify the requirements necessary to achieve responsive and transformative change. </li>
+<li>94 per cent of Ontarians now have a primary health care provider. Through the work of the Patients First: Action Plan for Health Care, Ontario is committed to connecting a family doctor or nurse practitioner to everyone who wants one.</li>
+<li>Since 2004, the government has created 200 Family Health Teams, 25 Nurse Practitioner-Led Clinics and supported a significant expansion of Ontario’s Community Health Centres.</li>
+<li>Funding for home and community care, including mental health and addictions, has increased by about 5% a year since 2013.Implementation of the Roadmap to Strengthen Home and Community Care is underway, including six bundled care pilots, an increase to maximum nursing services, more residential hospice care, and more respite care for caregivers.</li>
+<li>In 2015, Ontario provided home care to approximately 650,000 people, including 28.7 million hours of personal support and homemaking, 6.9 million nursing visits and 2.1 million hours of nursing shifts.</li>
+<li>The ministry consulted and engaged extensively in English and French with more than 6,000 individuals and organizations across the province to help inform the proposed improvements to the health care system. </li>
+</ul>
+<p class=MsoNormal>&nbsp;</p>
+
+
+<h3><span lang=en style='font-family:"Arial","sans-serif"'>LEARN MORE</span></h3>
+<ul>
+<li>
+		<a title="Learn More" href="http://news.ontario.ca/m/43003">Patients First Act Backgrounder</a>
+</li>
+<li>
+		<a title="Learn More" href="http://www.health.gov.on.ca/en/news/bulletin/2016/docs/patients_first_report_back_20160602.pdf">Patients First: Reporting Back on the Proposal to Strengthen Patient-Centred Health Care in Ontario </a>
+</li>
+<li>
+		<a title="Learn More" href="http://www.health.gov.on.ca/en/news/bulletin/2015/hb_20151217.aspx">Patients First: A Proposal to Strengthen Patient-Centred Health Care in Ontario</a>
+</li>
+<li>
+		<a title="Learn More" href="http://www.health.gov.on.ca/en/ms/ecfa/healthy_change/report_year_one.aspx">Patients First: Action Plan for Health Care — Year One Results</a>
+</li>
+<li>
+		<a title="Learn More" href="http://www.health.gov.on.ca/en/ms/ecfa/healthy_change/">Patients First: Action Plan for Health Care</a>
+</li>
+<li>
+		<a title="Learn More" href="http://www.health.gov.on.ca/en/news/bulletin/2016/hb_20161207_faq.aspx">Frequently Asked Questions about The Patients First Act</a>
+</li>
+</ul>
+<p class=MsoNormal><span lang=en>&nbsp;</span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none'>
+ <tr style='height:17.0pt'>
+  <td width="60%" valign=top style='width:60.0%;border:none;border-top:solid windowtext 1.0pt;
+  padding:5.75pt 0cm 0cm 0cm;height:17.0pt'>
+  <p class=MsoNormal><span lang=en style='font-size:9.0pt'>
+<b>Media Line</b>
+Toll-free: 1-888-414-4774<br />
+media.moh@ontario.ca <br />
+GTA: 416-314-6197
+  </span></p>
+  <p class=MsoNormal><span lang=en style='font-size:9.0pt'>
+<b>David Jensen </b>
+Communications and Marketing Division-MOHLTC<br />
+media.moh@ontario.ca<br />
+416-314-6197
+  </span></p>
+  <p class=MsoNormal><span lang=en style='font-size:9.0pt'>
+<b>Shae Greenfield </b>
+Minister&#39;s Office<br />
+
+416-325-5230
+  </span></p>
+  <p class=MsoNormal><span lang=en style='font-size:9.0pt'>
+<b>For public inquiries call ServiceOntario, INFOline</b>
+(Toll-free in Ontario only)<br />
+ontario.ca/health-news<br />
+1-866-532-3161
+  </span></p>
+  <p class=MsoNormal style='margin-right:1.0pt'><span lang=en
+  style='font-size:9.0pt'>&nbsp;</span></p>
+  </td>
+  <td width="40%" valign=top style='width:40.0%;border:none;border-top:solid windowtext 1.0pt;
+  padding:2.9pt 5.75pt 0cm 5.75pt;height:17.0pt'>
+  <p class=MsoNormal align=right style='text-align:right'><b><span lang=en><a href="https://news.ontario.ca/mohltc/en/2016/12/ontario-passes-legislation-that-delivers-better-health-care-for-families.html">Available Online</a></span></b></p>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=en
+  style='font-size:9.0pt'><b><span lang=en>
+<a href="https://news.ontario.ca/mohltc/fr/2016/12/lontario-adopte-un-projet-de-loi-qui-offre-de-meilleurs-soins-de-sante-pour-les-familles.html">Disponible en Français</a></span></b></span></p>
+
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal>&nbsp;</p>
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
