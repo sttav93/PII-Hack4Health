@@ -1,0 +1,461 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title></title>
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Franklin Gothic Heavy";
+	panose-1:2 11 9 3 2 1 2 2 2 4;}
+@font-face
+	{font-family:"Arial Black";
+	panose-1:2 11 10 4 2 1 2 2 2 4;}
+@font-face
+	{font-family:"Arial Bold";
+	panose-1:2 11 7 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Arial Italic";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Franklin Gothic Book";
+	panose-1:2 11 5 3 2 1 2 2 2 4;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"\@Batang";
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+ /* Style Definitions */
+
+ p, div, p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+h1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial Bold","serif";
+	layout-grid-mode:line;
+	font-weight:bold;}
+h2
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial Italic","sans-serif";
+	font-weight:normal;
+	font-style:italic;}
+h3
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial Bold","serif";
+	font-weight:bold;}
+h4
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	layout-grid-mode:line;
+	font-weight:bold;}
+h5
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+h6
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-36.0pt;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	background:navy;
+	font-size:10.0pt;
+	font-family:"Tahoma","sans-serif";}
+p
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	line-height:18.0pt;
+	font-size:11.0pt;
+	font-family:"Arial Unicode MS","sans-serif";}
+pre
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.content1
+	{mso-style-name:content1;
+	font-family:"Arial","sans-serif";
+	color:#333333;}
+p.Default, li.Default, div.Default
+	{mso-style-name:Default;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+span.ecxa1
+	{mso-style-name:ecxa1;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.featuretext
+	{mso-style-name:featuretext;}
+p.releasedate, li.releasedate, div.releasedate
+	{mso-style-name:releasedate;
+	margin-right:0cm;
+	margin-left:0cm;
+	line-height:normal;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:36.0pt 72.0pt 45.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-CA link=blue vlink=purple>
+
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.94%;border-collapse:collapse'>
+ <tr style='height:4.05pt'>
+  <td width="40%" valign=top style='width:40.0%;padding:0cm 5.4pt 0cm 5.4pt;
+  height:4.05pt'>
+  <p class=MsoNormal><img width=175 height=58
+  src="http://media.ontarionewsroom.com/logos/ontario_logo.png" align=left hspace=12></p>
+  </td>
+  <td width="60%" valign=bottom style='width:60.0%;padding:0cm 5.4pt 0cm 5.4pt;
+  height:4.05pt'>
+  <p class=MsoHeader align=right style='text-align:right'><b><i><span
+  lang=en style='font-size:30.0pt;font-family:"Arial Black","sans-serif";
+  color:gray'>NEWS</span></i></b></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:20.25pt'>
+  <td width="100%" colspan=2 valign=top style='width:100.0%;border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:20.25pt'>
+  <p class=MsoFooter align=right style='text-align:right'><b><span lang=en
+  style='font-size:10.0pt'>Office of the Premier</span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=en>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=en>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=en
+style='font-size:14.0pt'>Ontario Launching Pilot Project for Rural Health Hubs</span></b></p>
+
+<h2><span lang=en>$2.5-Million Investment Will Enhance Care for Rural Patients</span></h2>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=en>August  7, 2016 10:36 A.M.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+Ontario
+is strengthening health care in Northern communities by finding innovative ways
+to deliver care to patients through a new pilot project for rural health hubs.
+
+<p>As part of
+her week-long visit to more than a dozen Northern Ontario communities, Premier
+Kathleen Wynne made the announcement today at Espanola Regional Hospital and
+Health Centre, one of five sites chosen for the pilot project. Ontario will
+provide $2.5 million in funding over three years for the five hubs.</p>
+<p>The
+funding will enhance service integration at the five health care locations to
+help them become fully integrated health hubs that better meet the unique needs
+of rural communities, and that provide high-quality care for patients. They will
+connect modern services and coordinate transitions between caregivers and
+doctors -- and make it easier for patients and their families to understand and
+access their health care choices.</p>
+<p>Along with
+community partners, the five health care centres participating in the pilot
+project are:</p>
+<p></p>
+<ul><li>Espanola Regional Hospital and Health
+Centre</li><li>Dryden Regional Health Centre</li><li>Manitouwadge General Hospital</li><li>North Shore Health Centre -- formerly
+Blind River District Health Centre</li><li>Haliburton Highlands Health Services.</li></ul><p></p>
+<p>In
+collaboration with community partners, each site will support health system
+transformation and improve care, access and outcomes for patients in remote
+areas of the province. It is expected that the hubs will evolve into fully
+integrated health care delivery systems by 2017-18. They will then provide care
+that is integrated from end to end -- public health, primary care, mental health
+care, chronic disease management, acute care, home and community care,
+long-term care and palliative care.</p>
+<p>Finding new and better ways to deliver health
+care to patients in rural Ontario is part of the government's plan to build a
+better Ontario through its Patients First: Action Plan for Health Care, which
+provides patients with faster access to the right care; better home and
+community care; the information they need to live healthy; and a health care
+system that is sustainable for generations to come.</p>
+
+
+<p class=MsoNormal>&nbsp;</p>
+<h3><span lang=en style='font-family:"Arial","sans-serif"'>QUOTES</span></h3>
+<p>"
+Our government is working to ensure access to high-quality health care in every corner of Ontario. By bringing services together through the Rural Health Hubs project, we are making it easier for people to get access to the care they need, where they need it."
+<br /> - Kathleen Wynne<br />Premier of Ontario</p>
+<p>"
+Rural health hubs will improve quality of care and deliver better health outcomes for people in remote communities. By providing more integrated care for Ontarians closer to home, we are putting patients’ needs first — providing faster access to the right care."
+<br /> - Dr. Eric Hoskins<br />Minister of Health and Long-Term Care</p>
+<p class=MsoNormal>&nbsp;</p>
+
+<h3><span lang=en style='font-family:"Arial","sans-serif"'>QUICK FACTS</span></h3>
+<ul>
+<li>The Ontario Hospital Association and the Ontario Medical Association established a Rural Health Hub Advisory Committee to develop a framework for implementing these hubs.</li>
+<li>Four of the five sites selected for this project are in Northern Ontario. This reflects the vast geographical areas that many health care centres serve in the North.</li>
+<li>Espanola Regional Hospital and Health Centre will receive an additional $97,300 in operating funding this year –– a 0.9 per cent increase.</li>
+<li>Espanola Regional Hospital and Health Centre will also receive more than $384,000 this year through the Health Infrastructure Renewal Fund (HIRF), which helps hospitals repair or replace roofs, windows, fire alarms and other building systems. Ontario is investing $175 million this year through the HIRF — up from $125 million in 2015–16.</li>
+<li>Small communities with fewer than 30,000 residents make up almost 25 per cent of Ontario’s population.</li>
+</ul>
+<p class=MsoNormal>&nbsp;</p>
+
+
+<h3><span lang=en style='font-family:"Arial","sans-serif"'>LEARN MORE</span></h3>
+<ul>
+<li>
+		<a title="Learn More" href="http://www.ontario.ca/patientsfirst">Patients First: Action Plan for Health Care</a>
+</li>
+<li>
+		<a title="Learn More" href="http://www.oha.com/AboutUs/Membership/BecomeaMember/Documents/Rural Health Hub Framework_Ontario_FNL.pdf">Rural Health Hubs Framework</a>
+</li>
+</ul>
+<p class=MsoNormal><span lang=en>&nbsp;</span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none'>
+ <tr style='height:17.0pt'>
+  <td width="60%" valign=top style='width:60.0%;border:none;border-top:solid windowtext 1.0pt;
+  padding:5.75pt 0cm 0cm 0cm;height:17.0pt'>
+  <p class=MsoNormal style='margin-right:1.0pt'><span lang=en
+  style='font-size:9.0pt'>&nbsp;</span></p>
+  </td>
+  <td width="40%" valign=top style='width:40.0%;border:none;border-top:solid windowtext 1.0pt;
+  padding:2.9pt 5.75pt 0cm 5.75pt;height:17.0pt'>
+  <p class=MsoNormal align=right style='text-align:right'><b><span lang=en><a href="https://news.ontario.ca/opo/en/2016/08/ontario-launching-pilot-project-for-rural-health-hubs.html">Available Online</a></span></b></p>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=en
+  style='font-size:9.0pt'><b><span lang=en>
+<a href="https://news.ontario.ca/opo/fr/2016/08/lontario-lance-un-projet-pilote-de-carrefours-sante-en-milieu-rural.html">Disponible en Français</a></span></b></span></p>
+
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal>&nbsp;</p>
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
